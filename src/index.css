@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.first {
+  position: absolute;
+  width: 64px;
+  height: 22px;
+  left: 40px;
+  top: 54px;
+
+  /* background: url(Frame 45.png); */
+}
+.uptime {
+  position: absolute;
+  width: 475px;
+  height: 112px;
+  left: 40px;
+  top: 307px;
+
+  font-family: "Poppins";
+  /* font-style: normal; */
+  /* font-weight: 600; */
+  font-size: 38px;
+  /* line-height: 57px; */
+  display: flex;
+  align-items: left;
+  /* letter-spacing: 0.03em; */
+
+  color: #ffffff;
+}
+.welcome-text {
+  position: absolute;
+  width: 266px;
+  height: 44px;
+  left: 850px;
+  top: 127px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 130%;
+  /* or 44px */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #020100;
+}
+
+.firstdiv {
+  position: absolute;
+  width: 620px;
+  height: 555px;
+  left: 20px;
+  top: calc(50% - 555px / 2);
+}
+
+.input {
+  position: absolute;
+  width: 360px;
+  height: 49px;
+  left: 780px;
+  top: 219px;
+}
+
+.input2 {
+  position: absolute;
+  width: 360px;
+  height: 49px;
+  left: 780px;
+  top: 290px;
+}
+.login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+
+  position: absolute;
+  width: 360px;
+  height: 53px;
+  left: 780px;
+  top: 398px;
+
+  background: #020100;
+  box-shadow: 0px 20px 32px rgba(2, 1, 0, 0.42);
+  border-radius: 10px;
+}
+.signUp {
+  position: absolute;
+  width: 236px;
+  height: 19px;
+  left: calc(50% - 236px / 2 + 320px);
+  top: 521px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #667085;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  position: absolute;
+  width: 119px;
+  height: 17px;
+  left: 50px;
+  top: 510px;
+}
+.socialLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+
+  position: absolute;
+  width: 56px;
+  height: 15px;
+  left: 540px;
+  top: 510px;
+}
+.again {
+  position: absolute;
+  width: 153px;
+  height: 22px;
+  left: 884px;
+  top: 171px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+  color: #667085;
+}
+.fpsw {
+  position: absolute;
+  width: 102px;
+  height: 15px;
+  left: 1038px;
+  top: 345px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  text-align: center;
+
+  color: #667085;
+
+  opacity: 0.5;
+}
+.symbol {
+  position: absolute;
+  left: 3.18%;
+  right: 3.12%;
+  top: 3.13%;
+  bottom: 3.31%;
+
+  /* background: #bfbfbf; */
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
